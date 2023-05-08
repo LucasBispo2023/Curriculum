@@ -1,0 +1,146 @@
+html{
+    background-image: url("fundoCurriculo.jpg");
+    background-size:normal;
+    background-repeat:no-repeat;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    color:white;
+    text-align:start;   
+}
+header {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top:5rem;
+}
+img{
+    border: 2px solid white;
+    border-radius: 150px;
+    padding: 0px;
+    margin-left:0px;
+    margin-bottom:10px;
+    float:top left;
+}
+p{
+    font-size:1rem;
+    margin-left:1.7rem;
+}
+.boxColunaDireita{
+    box-sizing:border-box;
+    width: 80%;
+    height: 60rem;
+    float:right;
+    border: 2px  dotted white;
+    border-left:0;
+}
+.Experiencia{
+    margin-top: 2rem;
+}
+.Experiencia.boxColunaDireita{
+    height:35rem;;
+}
+aside{
+    padding: 0rem 0.3rem;
+}
+aside p{
+    margin-left:0px;
+}
+aside h4{
+    margin-top:1rem;
+}
+.boxColunaEsquerda{   
+    float:top left;
+    box-sizing:border-box;
+    width: 20%;
+    height: 97rem;
+    border: 2px dotted white;
+}
+.resumo{
+    border-bottom: 0;
+    padding-bottom: 3rem;
+}
+.Skills{
+    border-bottom: 2px dotted white;
+    border-top: 2px dotted white;
+    padding: 17rem 0 17;
+    text-align:center;
+}
+.Skills ul{
+    padding-left:0rem;
+    margin-left:0px;
+    
+}
+.Skills ul ul{
+    margin-top:1rem;
+    margin-bottom:2rem;
+}
+.tituloSkill{
+    margin-bottom:0.5rem;
+    text-decoration:underline;
+}
+.Contato{
+    margin-bottom:0px;
+    padding-top:1rem;
+}
+footer{
+    box-sizing: border-box;
+}
+h1{
+    text-align: right;
+    margin-inline: auto;
+    border-bottom: 4px double white;
+    font-family:serif;
+    font-size:4rem;
+}
+h2{
+    font-size:3rem;
+    margin: 0px 0px 30px 5px;  
+}
+h3{
+    font-size:2rem;
+}
+h4{
+    font-size:1.8rem;
+}
+h5{
+    font-size:1.56rem;
+}
+h6{
+    font-size:1rem;
+}
+.Ensino h5{
+    margin-bottom:0px;
+}
+.Ensino h6{
+    margin-bottom: 10px;
+    margin-top:5px;
+}
+#tituloCursoComplementar{
+    margin-bottom:5px;
+}
+#tituloCursoComplementar ul{
+    padding-left:6rem;
+}
+.Experiencia h4{
+    margin: 10px 5px 0px 0px;
+    padding-left: 5px;
+}
+.Experiencia h5{
+    margin-bottom: 0px;
+}
+.Experiencia h6{
+    margin-bottom:10px;
+    margin-top:5px;
+}
+a:visited{
+    color:orangered;
+}
+a:hover{
+    color:green;  
+}
+a{
+    color:#57bff2;
+}
