@@ -1,3 +1,11 @@
+@media (min-width: 948px) {
+    html {
+      min-width: 947px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+  }
+
 html{
     background-image: url("fundoCurriculo.jpg");
     background-size:normal;
@@ -31,7 +39,7 @@ p{
 .boxColunaDireita{
     box-sizing:border-box;
     width: 80%;
-    height: 60rem;
+    height: 65rem;
     float:right;
     border: 2px  dotted white;
     border-left:0;
@@ -40,7 +48,7 @@ p{
     margin-top: 2rem;
 }
 .Experiencia.boxColunaDireita{
-    height:35rem;;
+    height: 48rem;
 }
 aside{
     padding: 0rem 0.3rem;
@@ -51,11 +59,11 @@ aside p{
 aside h4{
     margin-top:1rem;
 }
-.boxColunaEsquerda{   
+.boxColunaEsquerda{
     float:top left;
     box-sizing:border-box;
     width: 20%;
-    height: 97rem;
+    height: 115rem;
     border: 2px dotted white;
 }
 .resumo{
